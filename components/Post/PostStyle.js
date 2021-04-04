@@ -1,0 +1,49 @@
+import {StyleSheet} from 'react-native';
+const styles = StyleSheet.create({
+    img:{
+        width:70,
+        height:70,
+        margin:5,
+        borderRadius:50,
+        borderWidth:2,
+        borderColor:'red'
+    },
+    txt:{
+        textAlign:'center'
+    },
+    icon:{
+        width:35,
+        height:35,
+        margin:5,
+        borderRadius:50,
+        borderWidth:2,
+        borderColor:'red' 
+    },
+    head:{
+        flexDirection:'row',
+        alignItems:'center',
+    },
+    txtIcon:{
+        fontWeight:'bold'
+    },
+    body:{
+        width:375,
+        height:375
+    },
+    footer:{
+       marginLeft:15
+    },
+    left:{
+        flexDirection:'row',
+        alignItems:'center'
+    },
+    footerPost:{
+        flexDirection:'row',
+        marginVertical:10,
+    },
+    footerEnd:{
+        marginLeft:100
+    }
+    
+});
+export default styles;

@@ -1,0 +1,10 @@
+import Home from './Home';
+import Search from './Search';
+import Profile from './Profile';
+import Heart from './Heart';
+import Add from './Add';
+export {Home};
+export {Search};
+export {Profile};
+export {Heart};
+export {Add};
